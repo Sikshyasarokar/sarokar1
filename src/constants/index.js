@@ -54,13 +54,13 @@ export const navigation = [
   {
     id: "5",
     title: "Videos",
-    url: "#login",
+    url: "https://www.drive.google.com",
     onlyMobile: true,
   },
   {
     id: "4",
     title: "News",
-    url: "#news",
+    url: "https://news-ashen-ten.vercel.app/",
     onlyMobile: true,
   },
 ];

@@ -68,7 +68,7 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
         <div className="flex gap-5">
-          <a href="http://localhost:3000/">
+          <a href="https://news-ashen-ten.vercel.app/">
             <Button className="hidden lg:flex">News</Button>
           </a>
           <a href="https://www.drive.google.com">
