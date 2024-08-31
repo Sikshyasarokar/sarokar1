@@ -1,15 +1,18 @@
 #include <stdio.h>
-
-struct students {
-	int roll;
-	char name[];
-};
-
+#include <string.h>
 
 int main() {
-	struct students lol;
-	printf("Enter your roll and name :");
-	scanf("%d %s", &lol.roll, lol.name);
-	printf("\n The roll and name is : %d \t,%s", lol.roll, lol.name);
+	FILE *fptr = fopen("abc.txt", "w");
+	char name[20], ch[5];
+	float m[3];
+	do{
+		printf("enter name and marks for 3 subjects :");
+		scanf("%s %f %f %f", name, &m[0], &m[1], &m[2]);
+		fprintf(fptr, "\n%s %f %f %f", name, m[0], m[1], m[2]);
+		printf("Do you want to continue ? (Y/N)");
+		scanf("%s", ch);
+		strupr(ch);
+	}while(strcmp(ch, "Y") == 0);
+	fclose(fptr);
 	return 0;
 }
