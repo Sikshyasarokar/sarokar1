@@ -71,7 +71,7 @@ const Header = () => {
           <a href="https://news-ashen-ten.vercel.app/">
             <Button className="hidden lg:flex">News</Button>
           </a>
-          <a href="https://drive.google.com/drive/folders/1RrKEX8Y9W2_NjQlEMQHEGbaIoV7FLHzR?hl=ne">
+          <a href="https://drive.google.com/drive/folders/1RrKEX8Y9W2_NjQlEMQHEGbaIoV7FLHzR?usp=drive_link">
             <Button className="hidden lg:flex">Videos</Button>
           </a>
         </div>
