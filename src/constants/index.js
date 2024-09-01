@@ -54,7 +54,7 @@ export const navigation = [
   {
     id: "5",
     title: "Videos",
-    url: "https://drive.google.com/drive/folders/1RrKEX8Y9W2_NjQlEMQHEGbaIoV7FLHzR",
+    url: "https://drive.google.com/drive/folders/1RrKEX8Y9W2_NjQlEMQHEGbaIoV7FLHzR?usp=drive_link",
     onlyMobile: true,
   },
   {
